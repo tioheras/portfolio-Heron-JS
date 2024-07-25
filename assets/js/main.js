@@ -4,12 +4,22 @@ function updateProfileInfo(profileData) {
     photo.src = profileData.photo;
     photo.alt = profileData.name;
 
-    document.getElementById('profile.name').textContent = profileData.name;
-    document.getElementById('profile.job').textContent = profileData.job;
-    document.getElementById('profile.location').textContent = profileData.location;
-    document.getElementById('profile.telefone').textContent = profileData.telefone;
-    document.getElementById('profile.email').textContent = profileData.email;
-    document.getElementById('profile.email').href = `mailto:${profileData.email}`;
+    const name = document.getElementById('profile.name')
+    name.innerText = profileData.name
+
+    const job = document.getElementById('profile.job')
+    job.innerText = profileData.job    
+
+    const location = document.getElementById('profile.location')
+    location.innerText = profileData.location
+
+    const telefone = document.getElementById('profile.telefone')
+    telefone.innerText = profileData.phone
+
+    const email = document.getElementById('profile.email')
+    email.innerText = profileData.email
+    email.href = `mailto:${profileData.email}`
+
 }
 
 (async () => {
