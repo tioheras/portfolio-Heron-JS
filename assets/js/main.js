@@ -1,28 +1,23 @@
 
 function updateProfileInfo(profileData) {
-    const photo = document.getElementById('profile.photo');
-    photo.src = profileData.photo;
-    photo.alt = profileData.name;
+    document.getElementById('profile.photo').src = profileData.photo;
+    document.getElementById('profile.photo').alt = profileData.name;
 
-    const name = document.getElementById('profile.name')
-    name.innerText = profileData.name
+    document.getElementById('profile.name').innerText = profileData.name;
+    document.getElementById('profile.job').innerText = profileData.job;
+    document.getElementById('profile.location').innerText = profileData.location;
+    document.getElementById('profile.telefone').innerText = profileData.telefone;
 
-    const job = document.getElementById('profile.job')
-    job.innerText = profileData.job    
-
-    const location = document.getElementById('profile.location')
-    location.innerText = profileData.location
-
-    const telefone = document.getElementById('profile.telefone')
-    telefone.innerText = profileData.phone
-
-    const email = document.getElementById('profile.email')
-    email.innerText = profileData.email
-    email.href = `mailto:${profileData.email}`
-
+    const emailElement = document.getElementById('profile.email');
+    emailElement.innerText = profileData.email;
+    emailElement.href = `mailto:${profileData.email}`;
 }
 
 (async () => {
-    const profileData = await fetchProfileData();
-    updateProfileInfo(profileData);
+    try {
+        const profileData = await fetchProfileData();
+        updateProfileInfo(profileData);
+    } catch (error) {
+        console.error('Failed to fetch profile data:', error);
+    }
 })();
