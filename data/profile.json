@@ -1,0 +1,107 @@
+{
+  "photo": "/assets/imagem/fotoHeron.jpeg",
+  "name": "Heron Augusto de Carli",
+  "job": "Engenheiro Ambiental em transição para Desenvolvedor Full Stack",
+  "linkedin": "https://www.linkedin.com/in/heron-augusto-de-carli-630693181/",
+  "location": "Brasil",
+  "telefone": "+55 (41) 99876-5432",
+  "email": "dev.heroncarli@gmail.com",
+  "languages": [
+    "Português",
+    "Inglês Intermediário"
+  ],
+  "education": [
+    {
+      "institution": "Universidade do Estado de Santa Catarina/UDESC",
+      "degree": "Engenharia Ambiental",
+      "year": "2018"
+    },
+    {
+      "institution": "Unicesumar",
+      "degree": "Análise e Desenvolvimento de Sistemas",
+      "status": "Em andamento"
+    },
+    {
+      "institution": "dio.me",
+      "degree": "Fullstack Developer",
+      "programs": [
+        {
+          "name": "Lógica de Programação",
+          "image": "/assets/imagem/programas/prog do zero.webp"
+        },
+        {
+          "name": "Lógica de Programação II",
+          "image": "/assets/imagem/programas/log prog.webp"
+        },
+        {
+          "name": "JavaScript Developer",
+          "image": "/assets/imagem/programas/javascript.webp"
+        },
+        {
+          "name": "CSS Developer",
+          "image": "/assets/imagem/programas/css dev.webp"
+        },
+        {
+          "name": "HTML5 Developer",
+          "image": "/assets/imagem/programas/html web dev.webp"
+        },
+        {
+          "name": "React Developer",
+          "image": "/assets/imagem/programas/react dev.webp"
+        },
+        {
+          "name": "Github",
+          "image": "/assets/imagem/programas/github form.webp"
+        }
+      ]
+    }
+  ],
+  "portfolio": [
+    {
+      "title": "Projetos GitHub",
+      "link": "https://github.com/tioheras"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Sobre mim",
+      "description": "Engenheiro Ambiental com 10 anos de experiência em indústria e meio ambiente, atualmente em transição para Desenvolvedor Full Stack. Apaixonado por backend, estou aprofundando minhas habilidades em tecnologias web e frameworks modernos para criar soluções eficientes e inovadoras. Minha jornada profissional proporcionou uma sólida base técnica, além de habilidades interpessoais, como liderança, resolução de problemas e comunicação eficaz. Com capacidade de aprendizado rápido e adaptação, estou pronto para contribuir como Desenvolvedor Júnior."
+    },
+    {
+      "title": "Coordenador de Projetos Ambientais",
+      "company": "Ponta Grossa Ambiental Concessionária de Serviço Publico",
+      "period": "Set 2023 - Jun 2024",
+      "description": "Gerenciamento do setor de Pesquisa, Desenvolvimento e Inovação na área de serviços públicos de coleta e destinação de resíduos, com supervisão de contratos e fornecedores críticos, garantindo a qualidade e cumprimento de prazos de entrega bem como a gestão de custos CAPEX e OPEX de projetos ambientais."
+    },
+    {
+      "title": "Analista de Meio Ambiente Sr.",
+      "company": "Seara Alimentos - Grupo JBS",
+      "period": "Set 2020 - Set 2023",
+      "description": "Assegurei conformidade com legislações ambientais e de qualidade, garantindo procedimentos industriais e de potabilidade adequados. Conquistei licenças ambientais estratégicas, mantendo boas relações com órgãos reguladores. Gerenciei e reduzi custos no setor de utilidades, implementando 5S e elaborando documentação técnica. Atuei em projetos de grande impacto em estações de água e fui responsável técnico pelos processos ambientais na cadeia produtiva de abate de aves (CREASC 170150/8)."
+    },
+    {
+      "title": "Analista Ambiental Pl.",
+      "company": "Master Agroindustrial",
+      "period": "Jan 2018 - Set 2020",
+      "description": "Apoio direto à supervisão de utilidades da unidade fabril, auxiliando rotinas diárias de operação, ordens de serviço, gestão dos resíduos, elaboração de relatórios técnicos e interpretação de dados referentes aos processos de geração de calor, frio, tratamento de água e efluente."
+    }
+  ],
+  "skills": {
+    "tools": [
+      { "name": "Nodejs", "image": "/assets/imagem/icons/tools/node.svg" },
+      { "name": "React", "image": "/assets/imagem/icons/tools/react.svg" },
+      { "name": "Github", "image": "/assets/imagem/icons/tools/github.svg" },
+      { "name": "HTML5", "image": "/assets/imagem/icons/tools/html.svg" },
+      { "name": "JavaScript", "image": "/assets/imagem/icons/tools/js.svg" },
+      { "name": "CSS", "image": "/assets/imagem/icons/tools/css.svg" },
+      { "name": "Java", "image": "/assets/imagem/icons/tools/java.svg" }
+    ],
+    "personal": [
+      "Liderança",
+      "Autogestão",
+      "Organização",
+      "Trabalho em equipe",
+      "Sensatez"
+    ]
+  }
+}
