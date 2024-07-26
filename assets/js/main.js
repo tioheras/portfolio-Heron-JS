@@ -13,6 +13,12 @@ function updateProfileInfo(profileData) {
     emailElement.href = `mailto:${profileData.email}`;
 }
 
+function updatepersonal(profileData){
+    const personal = document.getElementById('profile.skills.personal')
+    personal.innerHTML = profileData.skills.personal.map(skill => `<li>${skill}</li>`).join('')
+}
+
+
 (async () => {
     try {
         const profileData = await fetchProfileData();
