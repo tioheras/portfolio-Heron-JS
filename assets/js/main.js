@@ -23,6 +23,7 @@ function updatepersonal(profileData){
     try {
         const profileData = await fetchProfileData();
         updateProfileInfo(profileData);
+        updatepersonal(profileData);
     } catch (error) {
         console.error('Failed to fetch profile data:', error);
     }
