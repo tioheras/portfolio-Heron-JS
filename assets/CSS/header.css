@@ -15,7 +15,7 @@
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('assets/imagem/icons/comandoEtc.svg');
+    background-image: url('/assets/imagem/icons/comandoEtc.svg');
 }
 
 .header .photo {
@@ -57,23 +57,23 @@
     }
 
 .information .job::before{
-    background-image: url('assets/imagem/icons/cargo.svg');
+    background-image: url('/assets/imagem/icons/cargo.svg');
 }
 
 .information .linkedin::before{
-    background-image: url('assets/imagem/icons/email.svg');
+    background-image: url('/assets/imagem/icons/email.svg');
 }
 
 .information .email::before{
-    background-image: url('assets/imagem/icons/email.svg');
+    background-image: url('/assets/imagem/icons/email.svg');
 }
 
 .information .location::before{
-    background-image: url('assets/imagem/icons/location.svg');
+    background-image: url('/assets/imagem/icons/location.svg');
 }
 
 .information .telefone::before{
-    background-image: url('assets/imagem/icons/telefone.svg');
+    background-image: url('/assets/imagem/icons/telefone.svg');
 }
 
 @media only screen and (min-width: 768px){
