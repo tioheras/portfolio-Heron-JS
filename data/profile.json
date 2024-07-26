@@ -1,5 +1,5 @@
 {
-  "photo": "/assets/imagem/fotoHeron.jpeg",
+  "photo": "assets/imagem/fotoHeron.jpeg",
   "name": "Heron Augusto de Carli",
   "job": "Desenvolvedor Jr",
   "location": "Ponta Grossa - PR",
@@ -26,31 +26,31 @@
       "programs": [
         {
           "name": "Lógica de Programação",
-          "image": "/assets/imagem/programas/prog do zero.webp"
+          "image": "assets/imagem/programas/prog do zero.webp"
         },
         {
           "name": "Lógica de Programação II",
-          "image": "/assets/imagem/programas/log prog.webp"
+          "image": "assets/imagem/programas/log prog.webp"
         },
         {
           "name": "JavaScript Developer",
-          "image": "/assets/imagem/programas/javascript.webp"
+          "image": "assets/imagem/programas/javascript.webp"
         },
         {
           "name": "CSS Developer",
-          "image": "/assets/imagem/programas/css dev.webp"
+          "image": "assets/imagem/programas/css dev.webp"
         },
         {
           "name": "HTML5 Developer",
-          "image": "/assets/imagem/programas/html web dev.webp"
+          "image": "assets/imagem/programas/html web dev.webp"
         },
         {
           "name": "React Developer",
-          "image": "/assets/imagem/programas/react dev.webp"
+          "image": "assets/imagem/programas/react dev.webp"
         },
         {
           "name": "Github",
-          "image": "/assets/imagem/programas/github form.webp"
+          "image": "assets/imagem/programas/github form.webp"
         }
       ]
     }
@@ -87,13 +87,13 @@
   ],
   "skills": {
     "tools": [
-      { "name": "Nodejs", "image": "/assets/imagem/icons/tools/node.svg" },
-      { "name": "React", "image": "/assets/imagem/icons/tools/react.svg" },
-      { "name": "Github", "image": "/assets/imagem/icons/tools/github.svg" },
-      { "name": "HTML5", "image": "/assets/imagem/icons/tools/html.svg" },
-      { "name": "JavaScript", "image": "/assets/imagem/icons/tools/js.svg" },
-      { "name": "CSS", "image": "/assets/imagem/icons/tools/css.svg" },
-      { "name": "Java", "image": "/assets/imagem/icons/tools/java.svg" }
+      { "name": "Nodejs", "image": "assets/imagem/icons/tools/node.svg" },
+      { "name": "React", "image": "assets/imagem/icons/tools/react.svg" },
+      { "name": "Github", "image": "assets/imagem/icons/tools/github.svg" },
+      { "name": "HTML5", "image": "assets/imagem/icons/tools/html.svg" },
+      { "name": "JavaScript", "image": "assets/imagem/icons/tools/js.svg" },
+      { "name": "CSS", "image": "assets/imagem/icons/tools/css.svg" },
+      { "name": "Java", "image": "assets/imagem/icons/tools/java.svg" }
     ],
     "personal": [
       "Liderança",
